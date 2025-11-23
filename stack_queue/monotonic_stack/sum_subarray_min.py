@@ -12,7 +12,7 @@ Subarrays are [3], [1], [2], [4], [3,1], [1,2], [2,4], [3,1,2], [1,2,4], [3,1,2,
 Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.
 Sum is 17.
 '''
-
+from typing import List
 class Solution:
 
     def find_next_smaller_element_position(self,arr:List[int],length:int)->List[int]:
